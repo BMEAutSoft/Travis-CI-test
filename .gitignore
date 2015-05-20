@@ -31,3 +31,5 @@ node_modules
 .idea/modules.xml
 .idea/vcs.xml
 .idea/workspace.xml
+.idea/jsLibraryMappings.xml
+.idea/libraries/TravisTest_node_modules.xml
