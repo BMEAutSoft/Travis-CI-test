@@ -7,3 +7,7 @@ node_js:
   - "0.6"
   - "iojs"
   - "iojs-v1.0.4" 
+  
+deploy:
+  provider: heroku
+  api_key: "d3f03084-a164-429f-8a6a-ed5611e436ce"
