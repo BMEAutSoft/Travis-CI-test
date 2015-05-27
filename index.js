@@ -32,7 +32,7 @@ app.post('/server_state', function (request, response) {
     });
 });
 
-app.get('/', function (request, response) {
+app.get('/yo_world', function (request, response) {
     response.send('Hello World!');
 });
 
