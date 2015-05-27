@@ -1,9 +1,12 @@
 language: node_js
 node_js:
   - "0.12"
-  - "0.11"
-  - "0.10"
-  
+before_script:
+  - "npm install"
+  - "npm install -g karma"
+  - "npm install -g karma-cli"
+  - "npm install karma-jasmine"
+  - "npm install karma-chrome-launcher"
 deploy:
   provider: heroku
   api_key: "d3f03084-a164-429f-8a6a-ed5611e436ce"
